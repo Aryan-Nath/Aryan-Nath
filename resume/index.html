@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Aryan Nath</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <nav>
@@ -11,7 +12,7 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="../projects/index.html">Projects</a></li>
             <li><a href="../contact/index.html">Contact</a></li>
-            <li><a href="index.html">Resume</a></li>
+            <li><a href="index.html" class="current">Resume</a></li>
             <li><a href="https://github.com/Aryan-Nath" target="_blank">GitHub</a></li>
         </ul>
     </nav>
@@ -20,29 +21,95 @@
     <section>
         <h2>Education</h2>
         <article>
-            <h3>Bachelor of Science in Data Science</h3>
-            <p>University Name, <time datetime="2022-09">September 2022</time> — Present</p>
+            <h3>University of California, San Diego</h3>
+            <p>Bachelor of Science in Data Science (ML & AI Track), <time datetime="2024-09">September 2024</time> — Present</p>
+            <ul>
+                <li>Provost Honors student (3.84 GPA) focusing on Machine Learning, Probability, and Time Series Analysis.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Awards & Recognition</h2>
+        <article>
+            <h3>HDSI Undergraduate Research Scholarship</h3>
+            <p><time datetime="2025-06">June 2025</time> — <time datetime="2026-06">June 2026</time></p>
+            <ul>
+                <li>Awarded $2,500 for the independent development of BioSync, selected as a high-impact project from ~300 applicants (<3% acceptance rate).</li>
+            </ul>
         </article>
     </section>
 
     <section>
         <h2>Experience</h2>
         <article>
-            <h3>Data Science Intern</h3>
-            <p>Company Name, <time datetime="2025-06">June 2025</time> — <time datetime="2025-08">August 2025</time></p>
+            <h3>AgentSpace — AI Researcher/Developer</h3>
+            <p><time datetime="2025-10">October 2025</time> — Present</p>
             <ul>
-                <li>Developed recommender system prototypes.</li>
-                <li>Analyzed large datasets using Python and SQL.</li>
+                <li>Engineered a Neo4j Knowledge Graph and LangGraph multi-agent workflows to enable structured retrieval for agentic digital twin platforms.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>USP Digital — Game Systems Developer Intern</h3>
+            <p><time datetime="2025-08">August 2025</time> — Present</p>
+            <ul>
+                <li>Designed and shipped a Unity sorting game and created automated C# editor tools to accelerate asset workflows and release cycles.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Sustainable Investment Group — Student Quantitative Analyst</h3>
+            <p><time datetime="2025-03">March 2025</time> — Present</p>
+            <ul>
+                <li>Modeled equity volatility using ARIMA/GARCH and engineered market-neutral strategies by clustering 477 stocks via PCA and t-SNE.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <article>
+            <h3>BioSync — Bio-informed Habit Development</h3>
+            <p><time datetime="2025-06">June 2025</time> — Present</p>
+            <ul>
+                <li>Architected a multivariate time-series engine using CoreML and Granger Causality to predict digital impulsivity from physiological signals.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Tennis Match Outcome Prediction</h3>
+            <p><time datetime="2025-09">September 2025</time></p>
+            <ul>
+                <li>Optimized Random Forest classifiers using a PostgreSQL database of 74,000+ ATP matches integrated with NOAA environmental data.</li>
+            </ul>
+        </article>
+        <article>
+            <h3>BeBack — Responds when Offline</h3>
+            <p><time datetime="2026-01">January 2026</time></p>
+            <ul>
+                <li>Built a serverless Twilio and Gemini AI system that transcribes voicemails, summarizes content, and classifies urgency for automated call responses.</li>
             </ul>
         </article>
     </section>
 
     <section>
         <h2>Skills</h2>
-        <ul>
-            <li>Python, R, SQL</li>
-            <li>Machine Learning (Scikit-learn, TensorFlow)</li>
-            <li>Data Visualization (Tableau, Matplotlib)</li>
+        <h3>Languages & Backend</h3>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>PostgreSQL</li>
+            <li>C#</li>
+            <li>Unity</li>
+        </ul>
+        <h3>ML & Statistics</h3>
+        <ul class="skills-list">
+            <li>NumPy</li>
+            <li>Pandas</li>
+            <li>scikit-learn</li>
+            <li>PyTorch</li>
+            <li>XGBoost</li>
+            <li>Time Series (ARIMA)</li>
+            <li>LSTM/TCN</li>
+            <li>A/B Testing</li>
         </ul>
     </section>
 </body>
