@@ -147,3 +147,24 @@ section li {
   border-radius: 4px;
   margin-bottom: 0;
 }
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  text-align: center;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-weight: bold;
+  color: oklch(50% 0% 0);
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 2em;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "AgentSpace AI Researcher/Developer",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Engineered a Knowledge Graph using Neo4j to map entity relationships and developed LangGraph multi-agent workflows for structured retrieval."
+  },
+  {
+    "title": "Game Systems Developer Intern",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed and shipped a Unity sorting game and created automated asset workflows via custom Unity editor C# tools."
+  },
+  {
+    "title": "Student Quantitative Analyst",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Modeled equity volatility using ARIMA/GARCH and engineered market-neutral strategies via PCA and K-Means clustering."
+  },
+  {
+    "title": "BioSync - Bio-informed Habit Development",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Architected a multivariate time-series forecasting engine utilizing CoreML to predict digital impulsivity based on physiological triggers."
+  },
+  {
+    "title": "Tennis Match Outcome Prediction",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Integrated 74,000+ historical ATP matches with NOAA environmental data to optimize Random Forest classifiers."
+  },
+  {
+    "title": "BeBack - Responds when Offline",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a serverless voice call response system using Twilio and Gemini AI for intelligent voicemail transcription and classification."
+  },
+  {
+    "title": "Phoneme-based Voice Cloner",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a high-fidelity voice cloning system using phoneme-level modeling to capture unique vocal nuances and prosody for natural-sounding speech synthesis."
+  },
+  {
+    "title": "Data Visualization Project",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Explored complex datasets using D3.js to create interactive and insightful visual representations of categorical data."
+  },
+  {
+    "title": "Web Platform Exploration",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a deep understanding of the web platform, focusing on semantic HTML and modern CSS layouts."
+  },
+  {
+    "title": "Machine Learning Research",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Investigated novel neural network architectures for image recognition tasks, achieving significant improvements in accuracy."
+  },
+  {
+    "title": "Autonomous Robotics Lab",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Programmed autonomous drones to navigate complex indoor environments using computer vision and sensor fusion."
+  },
+  {
+    "title": "Distributed Systems Study",
+    "year": 2022,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed consensus algorithms in distributed databases to understand trade-offs between consistency and availability."
+  }
+]
