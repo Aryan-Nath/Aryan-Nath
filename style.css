@@ -73,16 +73,71 @@ form button {
   grid-column: 1 / -1;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-  gap: 1em;
+.project-year {
+  font-family: system-ui, sans-serif;
+  color: gray;
+  margin: 0;
+  font-size: 0.9em;
 }
 
-.projects article {
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.legend {
   display: grid;
-  grid-template-rows: subgrid;
-  grid-row: span 3;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  flex: 1;
+  list-style: none;
+  padding: 0;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.swatch {
+  width: 1.2em;
+  height: 1.2em;
+  background-color: var(--color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 0.5em;
+  margin-block: 1em;
+}
+
+svg:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: ivory !important;
+}
+
+.selected:is(path) {
+  fill: var(--color);
+  stroke: black;
+  stroke-width: 0.5px;
 }
 
 .projects h2 {
